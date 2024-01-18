@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../image/isai-ramos-_3SFFsWqCVg-unsplash.jpg) no-repeat center center/cover ;
+    /* backdrop-filter: blur(10px); */
+    width: 100%;
+    height: 100%;
+    color: #ade1ff;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden; 
+}
+header{
+    padding: 5px;
+    height: 7vh;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    
+    /* background-color: #84d2ff; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left img{
+    border-radius: 5px;
+    width: 10.66vw;
+    height: 9.46vh;
+}
+
+.left h2{
+    margin-left: 10px;
+}
+
+nav ul li a{
+     text-decoration: none;
+     font-size: 1.1rem;
+     color: rgb(130, 180, 245);
+     border: 2px transparent white;
+     padding: 4px;
+     margin-bottom: 5px;
+    
+}
+
+ nav ul li a:hover {
+    color: rgb(5, 0, 5);
+    font-weight: 900;
+    font-size: 1.02rem;
+    background-color: white;
+    border-radius: 5px;
+
+}
+ /* main{
+    height: 100vh;
+    width: 100vw;
+ }     */
+header hr{
+    margin: 0px 100px
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 70px 0px;
+}
+
+.firstsection > div{
+    width: 30%;
+
+}
+
+.leftsection{
+        font-size: 2.5rem;
+        margin: 100px 0px;
+}
+
+.rightsection img{
+    border-radius: 5% 30%;
+    width: 25vw;
+    height: 65vh;
+    
+    /* height: 500px; */
+}
+
+.leftsection > span a{
+    text-decoration: none;
+    color: cornflowerblue;
+    /* font-size: 3em; */
+}
+
+/* .leftsection > span :hover{
+    font-weight: 900;
+    font-size: 3.2rem;
+} */
+.col{
+    color: rebeccapurple;
+}
+
+/* .leftsection span .gap{
+    padding: 10px;
+} */
+
+button{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 15px;
+    position: relative;
+    left: 100px;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+button:hover{
+    animation: bounce 3s infinite;
+}
+@keyframes bounce{
+    0%{transform: translatey(0px);}
+    40%{transform: translatey(-20px);}
+    60%{transform: translatey(-10px);}
+}
+
+button i{
+    margin: 2px;
+    
+}
+
+.left .anim:hover{
+    animation: rotate 4s infinite;
+}
+@keyframes rotate{
+    /* 0%{transform: rotate(0deg);} */
+    100%{transform: rotate(360deg);}
+}

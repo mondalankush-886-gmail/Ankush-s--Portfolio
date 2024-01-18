@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    margin: 0px;
+    overflow: hidden; 
+} */
+.container {
+    background: url(../image/about_me_back2.jpg) no-repeat center center/cover;
+    /* object-fit: cover; */
+    /* backdrop-filter: blur(10px); */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+.head{
+    background-color: #411900;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headline{
+    color: white;
+    font-size: 1.7rem;
+    
+}
+.headline > .col{
+   color: blueviolet;
+   font-size: 2.5rem;
+   /* word-spacing: 12px; */
+
+}
+
+button{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(125, 242, 189);
+    border-radius: 50%;
+    width: 100vw;
+    /* position: relative;
+    top: 110px;
+    left: 2%;
+    */
+}
+button a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+.galary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: scroll; */
+}
+
+.galary img{
+    height: 113px;
+    /* width: 240px; */
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+.galary2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: scroll; */
+}
+
+.galary2 img{
+    height: 113px;
+    /* width: 240px; */
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+
+.par1{
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+.cen{
+    text-align: center;
+    color: white;
+}
+
+.sec1{
+    margin: 25px;
+
+}
+.sec2{
+    margin: 25px;
+
+}

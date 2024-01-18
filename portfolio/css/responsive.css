@@ -1,0 +1,76 @@
+@media screen and (max-width:1100px) {
+   body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      backdrop-filter: blur(5px);
+   }
+
+   header {
+      height: 100px;
+
+   }
+
+   nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 83px;
+   }
+
+   header hr {
+      margin: 0px 50px;
+   }
+
+   nav ul li a {
+      font-size: 11px;
+      font-weight: 900;
+   }
+
+   nav ul li {
+      margin: 0px 17px 10px 17px;
+   }
+
+   nav ul li a:hover {
+      color: rgb(5, 0, 5);
+      font-weight:300;
+      /* font-size: 1.02rem; */
+      background-color: white;
+      border-radius: 5px;
+  
+  }
+
+   .firstsection {
+      justify-content: space-evenly;
+      margin: 39px 0px;
+   }
+
+   .leftsection {
+      font-size: 1.0rem;
+      margin: 40px 0px;
+   }
+   
+  .leftsection > span a{
+   font-size: 1em;
+}
+
+   .rightsection img {
+      width: 34vw;
+      height: 50vh;
+   }
+
+   main hr {
+      margin: 0px 11vw;
+   }
+
+   button a {
+      font-size: 10px;
+      
+   }
+
+   button{
+      position: absolute;
+      padding: 5px;
+   }
+}

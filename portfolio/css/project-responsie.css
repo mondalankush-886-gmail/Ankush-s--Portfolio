@@ -1,0 +1,61 @@
+@media screen and (max-width:1100px) {
+
+    /* body {
+        margin: 0px;
+        overflow: hidden;
+
+    } */
+
+    .container {
+        /* object-fit: cover; */
+        /* width: 100vw;
+        height: 100vh; */
+        overflow-y: scroll;
+    }
+
+    .headline {
+        color: white;
+        font-size: 1.0rem;
+
+    }
+
+    .headline>.col {
+        color: blueviolet;
+        font-size: 1.5rem;
+        /* word-spacing: 2px; */
+
+    }
+
+    button {
+        margin: 10px 1px 1px 1px;
+    }
+
+    .sec1 {
+        /* overflow: scroll; */
+        margin: 20px 2px 20px 1px
+    }
+
+    .sec2 {
+        /* overflow: scroll; */
+        margin: 20px 2px 20px 1px
+    }
+
+    /* .galary{
+        overflow-x: hidden;
+    } */
+
+    .galary img {
+
+        width: 120px;
+        height: 50px;
+        overflow: scroll;
+    }
+
+    .galary2 img {
+
+        width: 120px;
+        height: 50px;
+    }
+
+
+}
